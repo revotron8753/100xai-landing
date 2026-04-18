@@ -1,0 +1,25 @@
+:root {
+  --navy: #001F3F;
+  --cream: #F0EEE9;
+  --red: #FF4136;
+  --white: #ffffff;
+  --text: #001F3F;
+  --muted: #5a6a7a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--navy);
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+}

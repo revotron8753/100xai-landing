@@ -1,0 +1,56 @@
+.previews-section {
+  padding: 72px 0;
+  background: #fff;
+}
+
+.previews-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 600px) {
+  .previews-grid { grid-template-columns: 1fr; }
+}
+
+.preview-card {
+  background: var(--cream);
+  border-left: 4px solid var(--red);
+  border-radius: 0 10px 10px 0;
+  padding: 28px 24px;
+}
+
+.preview-quote {
+  font-size: 0.92rem;
+  color: var(--navy);
+  font-style: italic;
+  margin-bottom: 20px;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.preview-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.preview-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.preview-name {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--navy);
+}
+
+.preview-role {
+  font-size: 0.75rem;
+  color: var(--red);
+  font-weight: 600;
+}
