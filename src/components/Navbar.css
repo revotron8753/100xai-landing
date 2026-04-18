@@ -133,14 +133,39 @@
   .nav-logo {
     height: 36px;
   }
-  /* Hide CTA in top bar — pill handles it on scroll */
+
+  /* Hide CTA in top bar on mobile */
   .nav-inner .nav-btn {
     display: none;
   }
+
+  /* Keep corner pill, just nudge inward */
   .navbar--glass,
   .navbar--leaving {
     bottom: 16px;
     right: 16px;
+  }
+
+  /* Prevent CTA flash during leave animation */
+  .navbar--leaving .nav-btn {
+    display: none;
+  }
+
+  /* When expanded, constrain width so it doesn't overflow */
+  .navbar--expanded {
+    right: 12px;
+    left: 12px;
+    width: auto;
+    padding: 10px 16px;
+  }
+
+  .navbar--expanded .pill-inner {
+    justify-content: space-between;
+  }
+
+  .navbar--expanded .nav-btn {
+    margin-left: 12px;
+    margin-right: 2px;
   }
 }
 

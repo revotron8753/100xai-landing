@@ -75,7 +75,9 @@ export default function Navbar() {
             />
           </button>
           <a
-            href="https://calendly.com/hello-100xai/audit?month=2026-04" target="_blank" rel="noopener noreferrer"
+            href="https://calendly.com/hello-100xai/audit?month=2026-04"
+            target="_blank"
+            rel="noopener noreferrer"
             className={`btn-primary nav-btn ${mobileCollapsed && !expanded ? 'nav-btn--hidden' : ''}`}
             onClick={() => setExpanded(false)}
           >

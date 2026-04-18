@@ -83,6 +83,7 @@
   font-weight: 500;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .hero-section { padding: 36px 0 48px; }
   .hero-title { font-size: 2rem; }
 }
