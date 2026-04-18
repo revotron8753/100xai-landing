@@ -128,22 +128,19 @@
   overflow: visible;
 }
 
-/* ── MOBILE: top navbar ── */
+/* ── MOBILE ── */
 @media (max-width: 768px) {
   .nav-logo {
     height: 36px;
   }
-  .nav-btn {
-    font-size: 0.72rem;
-    padding: 8px 14px;
-    white-space: nowrap;
+  /* Hide CTA in top bar — pill handles it on scroll */
+  .nav-inner .nav-btn {
+    display: none;
   }
   .navbar--glass,
   .navbar--leaving {
     bottom: 16px;
-    right: 12px;
-    left: 12px;
-    width: auto;
+    right: 16px;
   }
 }
 
