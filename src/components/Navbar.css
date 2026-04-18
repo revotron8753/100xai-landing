@@ -166,6 +166,8 @@
   .navbar--expanded .nav-btn {
     margin-left: 12px;
     margin-right: 2px;
+    font-size: 0.75rem;
+    padding: 8px 12px;
   }
 }
 

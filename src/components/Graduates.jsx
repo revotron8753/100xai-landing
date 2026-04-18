@@ -8,10 +8,9 @@ import venu from '../assets/Faces/venu.jpeg'
 import mohan from '../assets/Faces/Mohan.jpeg'
 import sarah from '../assets/Faces/Sarah.png'
 import santosh from '../assets/Faces/Santosh.jpeg'
-import ayush from '../assets/Faces/Ayush.svg'
 import './Graduates.css'
 
-const avatars = [aayushmaan, abhinav, arun, daurati, kanchan, aarush, venu, mohan, sarah, santosh, ayush]
+const avatars = [aayushmaan, abhinav, arun, daurati, kanchan, aarush, venu, mohan, sarah, santosh]
 
 export default function Graduates() {
   return (
