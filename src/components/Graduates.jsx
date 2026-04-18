@@ -1,6 +1,17 @@
+import aayushmaan from '../assets/faces/Aayushmaan.jpeg'
+import abhinav from '../assets/faces/Abhinav.jpeg'
+import arun from '../assets/faces/Arun.jpeg'
+import daurati from '../assets/faces/Daurati.jpg'
+import kanchan from '../assets/faces/Kanchan.jpeg'
+import aarush from '../assets/faces/aarush.jpeg'
+import venu from '../assets/faces/venu.jpeg'
+import mohan from '../assets/faces/Mohan.jpeg'
+import sarah from '../assets/faces/Sarah.png'
+import santosh from '../assets/faces/Santosh.jpeg'
+import ayush from '../assets/faces/Ayush.svg'
 import './Graduates.css'
 
-const avatars = Array.from({ length: 12 }, (_, i) => `https://i.pravatar.cc/48?img=${i + 1}`)
+const avatars = [aayushmaan, abhinav, arun, daurati, kanchan, aarush, venu, mohan, sarah, santosh, ayush]
 
 export default function Graduates() {
   return (

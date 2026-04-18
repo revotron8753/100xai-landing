@@ -1,17 +1,19 @@
+import kanchan from '../assets/faces/Kanchan.jpeg'
+import abhishek from '../assets/faces/Abhishek.jpg'
 import './Previews.css'
 
 const testimonials = [
   {
     quote: '100XAI completely changed how we operate — tasks that used to take hours now get done in minutes. The impact on productivity is unreal.',
-    name: 'Business Owner',
-    role: 'Operations & Growth',
-    img: 'https://i.pravatar.cc/72?img=20',
+    name: 'Kanchan Mehra',
+    role: 'Founder - Vimla Art Forum Trust',
+    img: kanchan,
   },
   {
     quote: "We've reduced dependency on hiring and still scaled faster. 100XAI helped us turn AI into a real business advantage.",
-    name: 'Startup Founder',
-    role: 'Scaling & Automation',
-    img: 'https://i.pravatar.cc/72?img=21',
+    name: 'Abhishek Sharma',
+    role: 'ESG Consultant and SDG Mentor',
+    img: abhishek,
   },
 ]
 
