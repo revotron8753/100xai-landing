@@ -128,6 +128,25 @@
   overflow: visible;
 }
 
+/* ── MOBILE: top navbar ── */
+@media (max-width: 768px) {
+  .nav-logo {
+    height: 36px;
+  }
+  .nav-btn {
+    font-size: 0.72rem;
+    padding: 8px 14px;
+    white-space: nowrap;
+  }
+  .navbar--glass,
+  .navbar--leaving {
+    bottom: 16px;
+    right: 12px;
+    left: 12px;
+    width: auto;
+  }
+}
+
 /* ── KEYFRAMES ── */
 @keyframes runToCorner {
   from {

@@ -4,12 +4,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 10px;
   padding: 8px 16px;
   font-size: 0.8rem;
   font-weight: 600;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   letter-spacing: 0.02em;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .announcement-bar {
+    gap: 8px;
+    padding: 8px 12px;
+    font-size: 0.72rem;
+  }
+  .ann-logo {
+    display: none;
+  }
+  .msg {
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }
 
 .ann-logo {
