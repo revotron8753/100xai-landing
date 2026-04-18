@@ -1,5 +1,5 @@
-import kanchan from '../assets/faces/Kanchan.jpeg'
-import abhishek from '../assets/faces/Abhishek.jpg'
+import kanchan from '../assets/Faces/Kanchan.jpeg'
+import abhishek from '../assets/Faces/Abhishek.jpg'
 import './Previews.css'
 
 const testimonials = [

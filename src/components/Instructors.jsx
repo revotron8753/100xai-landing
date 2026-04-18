@@ -1,7 +1,7 @@
-import ayushImg from '../assets/faces/Ayush.svg'
-import mohanImg from '../assets/faces/Mohan.jpeg'
-import santoshImg from '../assets/faces/Santosh.jpeg'
-import sarahImg from '../assets/faces/Sarah.png'
+import ayushImg from '../assets/Faces/Ayush.svg'
+import mohanImg from '../assets/Faces/Mohan.jpeg'
+import santoshImg from '../assets/Faces/Santosh.jpeg'
+import sarahImg from '../assets/Faces/Sarah.png'
 import './Instructors.css'
 
 const experts = [
